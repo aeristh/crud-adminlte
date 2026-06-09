@@ -2,7 +2,8 @@
 include 'config.php';
 include 'template/header.php';
 ?>
-<!-- hai! -->
+
+<!-- aku jawir -->
 
 <div class="content-wrapper">
     <section class="content-header">
@@ -36,7 +37,6 @@ include 'template/header.php';
                 </div>
             </div>
 
-                <!-- Total Stok -->
                 <div class="col-12 col-sm-6 col-md-3">
                     <div class="info-box">
                         <span class="info-box-icon bg-success elevation-1">
@@ -52,7 +52,6 @@ include 'template/header.php';
                         </div>
                     </div>
                 </div>
-
                 <!-- Total Admin -->
                 <div class="col-12 col-sm-6 col-md-3">
                     <div class="info-box">
@@ -69,7 +68,6 @@ include 'template/header.php';
                         </div>
                     </div>
                 </div>
-
             </div>
 
             <!-- Main row -->
