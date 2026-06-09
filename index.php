@@ -19,20 +19,22 @@ include 'template/header.php';
 
                 <!-- Total Barang -->
                 <div class="col-12 col-sm-6 col-md-3">
-                    <div class="info-box">
-                        <span class="info-box-icon bg-info elevation-1">
-                            <i class="fas fa-box"></i>
-                        </span>
-                        <div class="info-box-content">
-                            <span class="info-box-text">Total Barang</span>
+                    <div class="card shadow-sm border-0 rounded-3">
+                        <div class="card-body d-flex align-items-center gap-3 py-3">
+                            <div class="d-flex align-items-center justify-content-center rounded-circle bg-info" style="width:54px;height:54px;min-width:54px;">
+                                <i class="fas fa-box text-white fs-4"></i>
+                            </div>
+                        <div>
+                            <div class="text-muted small">Total Barang</div>
                             <?php
                             $qBarang = mysqli_query($koneksi, "SELECT COUNT(*) AS total FROM barang");
                             $total_barang = mysqli_fetch_assoc($qBarang)['total'] ?? 0;
                             ?>
-                            <span class="info-box-number"><?= $total_barang; ?></span>
+                            <div class="fw-bold fs-4 lh-1"><?= $total_barang; ?></div>
                         </div>
                     </div>
                 </div>
+            </div>
 
                 <!-- Total Stok -->
                 <div class="col-12 col-sm-6 col-md-3">
