@@ -2,6 +2,7 @@
 include 'config.php';
 include 'template/header.php';
 ?>
+<!-- hai! -->
 
 <div class="content-wrapper">
     <section class="content-header">
