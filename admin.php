@@ -2,6 +2,8 @@
 include 'config.php';
 include 'template/header.php';
 
+// gw admin, lu member
+
 $message = getMessage();
 ?>
 

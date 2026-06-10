@@ -71,7 +71,7 @@ include 'template/header.php';
                                     <input type="text" class="form-control" id="nama_barang"
                                         name="nama_barang" value="<?php echo htmlspecialchars($barang['nama_barang']); ?>" required>
                                 </div>
-
+                                
                                 <div class="form-group">
                                     <label for="kategori">Kategori</label>
                                     <select class="form-control" id="kategori" name="kategori" required>
